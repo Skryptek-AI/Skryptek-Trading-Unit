@@ -1,0 +1,14 @@
+# AI Trading Agent — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core (required)
+numpy>=1.24
+pandas>=2.0
+
+# Deep learning (strongly recommended — falls back to Q-table if absent)
+torch>=2.0          # CPU-only: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Optional: live data feeds
+# yfinance>=0.2       # Yahoo Finance OHLCV data
+# ccxt>=4.0           # Crypto exchange API (Binance, Coinbase, etc.)
+# alpaca-trade-api    # US equities paper/live trading
